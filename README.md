@@ -1,71 +1,79 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19878287&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# 🚀 React Task Manager App
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A modern and responsive **React Task Manager** built with **Vite**, **Tailwind CSS**, and **React Router**.  
+✅ Manage your tasks 📝  
+✅ Fetch and display API data 🌐  
+✅ Light/Dark mode toggle 🌙☀️  
+✅ Mobile-first responsive design 📱  
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## ✨ Features
+- 🗂️ **Reusable Components**: Button, Card, Navbar, Footer
+- 📋 **Task Manager**: Add, complete, delete, and filter tasks
+- 🌐 **API Integration**: Fetch posts from JSONPlaceholder
+- 🎨 **Tailwind CSS Styling**: Fully responsive with dark mode
+- ⚛️ **React Hooks**: useState, useEffect, useContext
+- 💾 **LocalStorage Support**: Persist tasks between sessions
+- 🔥 Built with **Vite** for lightning-fast development
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
-
-## Files Included
-
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
+## 📂 Folder Structure
 ```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+├── components/    # Reusable UI components
+├── context/       # Theme context
+├── hooks/         # Custom hooks (e.g., useLocalStorage)
+├── pages/         # Pages (Home, Tasks)
+├── App.jsx        # App entry point
+├── main.jsx       # Main React entry
+├── index.css      # Tailwind base
 ```
 
-## Submission
+---
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## 🛠️ Setup & Run Locally
+### 📥 Clone the repo
+```bash
+git clone https://github.com/yourusername/react-task-manager.git
+cd react-task-manager
+```
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+### 📦 Install dependencies
+```bash
+npm install
+```
 
-## Resources
+### 🚀 Start the app
+```bash
+npm run dev
+```
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+Visit **http://localhost:5173** to view the app.
+
+---
+
+## 📸 Screenshots
+| Light Mode ☀️                 | Dark Mode 🌙                 |
+|--------------------------------|-------------------------------|
+| ![Light Mode](screenshots/light.png) | ![Dark Mode](screenshots/dark.png) |
+
+---
+
+## 🧑‍💻 Built With
+- ⚛️ [React](https://react.dev/)
+- 🌀 [Tailwind CSS](https://tailwindcss.com/)
+- ⚡ [Vite](https://vitejs.dev/)
+- 🌐 [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
+
+---
+
+## 📜 License
+[MIT](LICENSE)
+
+---
+
+## 💡 Author
+👩‍💻 **Your Name**  
+🔗 [GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
