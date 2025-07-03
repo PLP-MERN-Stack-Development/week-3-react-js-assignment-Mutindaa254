@@ -50,7 +50,7 @@ npm install
 npm run dev
 ```
 
-Visit **http://localhost:5173** to view the app.
+Visit **[http://localhost:5173](https://plp-mern-stack-development.github.io/week-3-react-js-assignment-Mutindaa254/)** to view the app.
 
 ---
 
