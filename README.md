@@ -68,12 +68,3 @@ Visit **http://localhost:5173** to view the app.
 - 🌐 [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 
 ---
-
-## 📜 License
-[MIT](LICENSE)
-
----
-
-## 💡 Author
-👩‍💻 **Your Name**  
-🔗 [GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
